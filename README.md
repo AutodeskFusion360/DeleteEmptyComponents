@@ -1,5 +1,5 @@
-# DeleteEmptyComponents (Script, JavaScript/Python)
-Delete empty components from an assembly - available in both JavaScript and Python
+# DeleteEmptyComponents (Script, Python)
+Delete empty components from an assembly - available in Python
 
 ## Usage
 See [How to install sample Add-Ins and Scripts](https://rawgit.com/AutodeskFusion360/AutodeskFusion360.github.io/master/Installation.html)

@@ -42,6 +42,7 @@ def main():
 
         # Delete all immediate occurrences of the empty components.
         deletedComponents = []
+        global k
         k = 0
         for component in componentsToDelete:
 
@@ -52,7 +53,7 @@ def main():
             occurrences = root.allOccurrencesByComponent(component)
             uniqueOccurrences = []
             for occurrence in occurrences:
-                global k
+                
                 for k in range(0, len(uniqueOccurrences)):
                     if occurrence is uniqueOccurrences[k]:
                         break
